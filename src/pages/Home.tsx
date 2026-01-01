@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Home: React.FC = () => {
   return (
  feat/accessibility-fixes-6134327995518164683
+
     <>
       {/* Hero Section */}
       <section className="py-20 lg:py-32 px-4 sm:px-6 lg:px-8 text-center max-w-6xl mx-auto">

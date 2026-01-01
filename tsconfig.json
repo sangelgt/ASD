@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
  feat/accessibility-fixes-6134327995518164683
+
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
@@ -20,6 +21,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
+ feat/accessibility-fixes-6134327995518164683
 
   },
   "include": ["src"],
