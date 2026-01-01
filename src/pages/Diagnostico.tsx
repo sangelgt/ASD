@@ -2,6 +2,8 @@ import React from 'react';
 
 const Diagnostico: React.FC = () => {
   return (
+ feat/accessibility-fixes-6134327995518164683
+
     <main className="flex-grow flex flex-col items-center justify-center py-12 lg:py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
         <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl"></div>
@@ -105,7 +107,9 @@ const Diagnostico: React.FC = () => {
               </label>
               <div className="relative">
                 <textarea className="w-full p-4 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-[#111827] text-slate-900 dark:text-white placeholder-slate-400 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-base resize-none shadow-sm" id="frustration" name="frustration" placeholder="Ej. Implementamos herramientas pero no vemos retorno de inversión claro..." required rows="3"></textarea>
+ feat/accessibility-fixes-6134327995518164683
               </div>
+
             </div>
             <div className="pt-4">
               <button className="w-full bg-primary hover:bg-primary-hover text-white font-bold py-4 px-6 rounded-lg shadow-lg hover:shadow-xl transform transition-all active:scale-[0.98] focus:ring-4 focus:ring-primary/20 flex items-center justify-center gap-3 text-lg" type="submit">
@@ -122,5 +126,7 @@ const Diagnostico: React.FC = () => {
     </main>
   );
 };
+ feat/accessibility-fixes-6134327995518164683
+
 
 export default Diagnostico;
