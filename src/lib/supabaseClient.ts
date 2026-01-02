@@ -10,6 +10,7 @@ if (!supabaseUrl || !supabaseAnonKey) {
 
 export const supabase = createClient(supabaseUrl ?? '', supabaseAnonKey ?? '')
 
+// This function is used to verify the Supabase connection.
 export async function testSupabaseConnection() {
   try {
     // This query is safe even if the table does not exist, thanks to PostgREST.
