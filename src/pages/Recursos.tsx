@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Recursos: React.FC = () => {
   return (
@@ -19,7 +18,7 @@ const Recursos: React.FC = () => {
             </span>
           </h1>
           <p className="reveal-up delay-200 mt-4 max-w-2xl mx-auto text-xl text-text-muted-light dark:text-text-muted-dark leading-relaxed">
-            Herramientas diseñadas bajo la metodología "Order before Tool". Transforme su inversión en IA en activos tangibles y evite la deuda técnica.
+            Herramientas diseñadas bajo la metodología &quot;Order before Tool&quot;. Transforme su inversión en IA en activos tangibles y evite la deuda técnica.
           </p>
         </div>
       </section>

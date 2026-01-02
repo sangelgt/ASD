@@ -26,7 +26,7 @@ const Diagnostico: React.FC = () => {
               <div className="p-2 bg-purple-50 dark:bg-white/5 rounded-lg text-primary">
                 <span className="material-symbols-outlined">psychology</span>
               </div>
-              Metodología "Order before Tool"
+              Metodología &quot;Order before Tool&quot;
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-4">
@@ -113,7 +113,7 @@ const Diagnostico: React.FC = () => {
                 <span className="material-symbols-outlined font-bold">arrow_forward</span>
               </button>
               <p className="text-center text-xs text-slate-400 mt-5">
-                Al enviar este formulario, acepta nuestra <a className="underline hover:text-primary transition-colors" href="#">Política de Privacidad</a>.
+                Al enviar este formulario, acepta nuestra <a className="underline hover:text-primary transition-colors" href="/privacidad">Política de Privacidad</a>.
               </p>
             </div>
           </form>

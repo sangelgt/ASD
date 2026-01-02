@@ -24,7 +24,7 @@ const Privacidad: React.FC = () => {
               <span className="font-display font-bold text-sm uppercase tracking-wide">Introducción</span>
             </div>
             <p className="text-slate-600 dark:text-slate-300 text-lg md:text-xl leading-relaxed">
-              En Angel Salazar Digital, creemos que la seguridad de la información es el pilar fundamental del ROI en Inteligencia Artificial. No existe rentabilidad sostenible sin una base de confianza. Esta política detalla cómo recopilamos, usamos y protegemos sus datos bajo estrictos estándares de gobernanza, aplicando nuestra filosofía de <span className="text-primary font-bold">"Orden antes que Herramienta"</span>.
+              En Angel Salazar Digital, creemos que la seguridad de la información es el pilar fundamental del ROI en Inteligencia Artificial. No existe rentabilidad sostenible sin una base de confianza. Esta política detalla cómo recopilamos, usamos y protegemos sus datos bajo estrictos estándares de gobernanza, aplicando nuestra filosofía de <span className="text-primary font-bold">&quot;Orden antes que Herramienta&quot;</span>.
             </p>
           </article>
         </div>

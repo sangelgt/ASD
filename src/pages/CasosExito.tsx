@@ -28,7 +28,7 @@ const CasosExito: React.FC = () => {
             <span className="material-symbols-outlined text-6xl text-primary/20 dark:text-primary-light/20 mb-4">format_quote</span>
           </div>
           <blockquote className="reveal delay-100 text-2xl md:text-3xl font-display font-medium leading-relaxed italic text-text-light dark:text-text-dark">
-            "No vendemos herramientas de IA. Vendemos orden. La herramienta es irrelevante si el proceso subyacente es un caos. Orden antes que Herramienta."
+            &quot;No vendemos herramientas de IA. Vendemos orden. La herramienta es irrelevante si el proceso subyacente es un caos. Orden antes que Herramienta.&quot;
           </blockquote>
           <div className="reveal delay-200 mt-8 flex items-center justify-center space-x-4">
             <div className="h-14 w-14 rounded-full bg-gray-300 overflow-hidden ring-2 ring-primary/20 dark:ring-primary-light/20">
