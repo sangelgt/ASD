@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
   return (
+ feat/accessibility-fixes-6134327995518164683
     <>
       {/* Hero Section */}
       <section className="py-20 lg:py-32 px-4 sm:px-6 lg:px-8 text-center max-w-6xl mx-auto">
@@ -70,6 +71,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
 
       {/* Partners Section */}
       <section className="py-12 bg-slate-50 dark:bg-slate-900 overflow-hidden border-b border-slate-200 dark:border-slate-800">
