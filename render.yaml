@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: asd-website
+    env: static
+    buildCommand: "npm install --legacy-peer-deps && npm run build"
+    staticPublishPath: ./dist
+    envVars:
+      - key: SUPABASE_URL
+        fromEnvironment: SUPABASE_URL
+      - key: SUPABASE_ANON_KEY
+        fromEnvironment: SUPABASE_ANON_KEY
