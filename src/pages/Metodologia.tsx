@@ -14,7 +14,7 @@ const Metodologia: React.FC = () => {
             Un sistema de rentabilidad diseñado para escalar sin fricción.
           </h1>
           <p className="text-lg md:text-xl font-normal leading-relaxed text-text-secondary dark:text-gray-300 max-w-[760px] animate-fade-in-up delay-200">
-            La metodología <span className="text-primary dark:text-primary-light font-bold">"Order before Tool"</span> asegura que cada inversión en inteligencia artificial se traduzca en eficiencia medible, no en complejidad añadida.
+            La metodología <span className="text-primary dark:text-primary-light font-bold">&quot;Order before Tool&quot;</span> asegura que cada inversión en inteligencia artificial se traduzca en eficiencia medible, no en complejidad añadida.
           </p>
         </div>
       </section>
@@ -60,7 +60,7 @@ const Metodologia: React.FC = () => {
                   <h3 className="text-2xl font-bold text-text-main dark:text-white mb-4">El Rol del AI Owner y Gobernanza</h3>
                   <div className="bg-surface-light dark:bg-surface-dark border border-border-light dark:border-border-dark p-8 rounded-2xl shadow-sm hover:shadow-lg hover:border-primary/30 dark:hover:border-primary-light/30 transition-all duration-300 text-left w-full">
                     <p className="text-base font-normal leading-relaxed text-text-secondary dark:text-gray-300">
-                      La tecnología necesita dirección humana. Establecemos un 'AI Owner' enfocado en métricas de ahorro y supervisión para garantizar el ROI.
+                      La tecnología necesita dirección humana. Establecemos un &apos;AI Owner&apos; enfocado en métricas de ahorro y supervisión para garantizar el ROI.
                     </p>
                   </div>
                 </div>

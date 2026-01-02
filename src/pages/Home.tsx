@@ -50,7 +50,7 @@ const Home: React.FC = () => {
                 Sobre el Fundador
               </div>
               <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white mb-6">
-                "La IA sin estrategia es solo <span className="text-primary dark:text-purple-400">costo</span>, no inversión."
+                &quot;La IA sin estrategia es solo <span className="text-primary dark:text-purple-400">costo</span>, no inversión.&quot;
               </h2>
               <p className="text-slate-600 dark:text-slate-400 text-lg leading-relaxed mb-6">
                 Con más de 15 años liderando transformaciones digitales en corporaciones Fortune 500, fundé esta consultoría con una misión clara: cerrar la brecha entre la promesa tecnológica y los resultados financieros tangibles.
@@ -111,7 +111,7 @@ const Home: React.FC = () => {
             </div>
             <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">Nuestra Metodología</h3>
             <p className="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed relative z-10">
-              Aplicamos el principio "Order before Tool" para asegurar que cada implementación de IA resuelva un problema de negocio cuantificable. Un proceso de 3 fases diseñado para eliminar el riesgo técnico.
+              Aplicamos el principio &quot;Order before Tool&quot; para asegurar que cada implementación de IA resuelva un problema de negocio cuantificable. Un proceso de 3 fases diseñado para eliminar el riesgo técnico.
             </p>
             <Link className="inline-flex items-center text-primary dark:text-purple-300 font-bold hover:gap-2 transition-all group-hover:text-primary-hover" to="/metodologia">
               Explorar Metodología <span className="material-symbols-outlined ml-1 !text-[20px]">arrow_forward</span>
