@@ -16,6 +16,7 @@ try {
     </React.StrictMode>
   );
 } catch (error) {
+ jules-fix-gh-pages-deployment-885220227349153596
   console.error("Error al renderizar la aplicación:", error);
   document.body.innerHTML = '<h1>Error de Conexión</h1>';
-}
+
