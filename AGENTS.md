@@ -64,4 +64,7 @@ Cuando Jules termine una tarea, el proceso de entrega debe ser:
 3. **Push:** Subir los cambios a la rama de origen en GitHub.
 4. **Deploy:** Si no hay CI/CD automático, ejecutar el comando de despliegue específico hacia la rama `gh-pages`.
 
+## 6. Este proyecto se despliega en Render.
+Jules tiene acceso a la RENDER_API_KEY. Para cambios que afecten la infraestructura o variables de entorno, Jules debe verificar la consistencia en el archivo render.yaml y asegurar que los PRs disparan vistas previas exitosas
+
 **Aviso para Jules:** Tu prioridad es la estabilidad del repositorio. Si una acción pone en riesgo el acceso al código o la visibilidad del sitio en GitHub Pages, debes detenerte y pedir confirmación.
