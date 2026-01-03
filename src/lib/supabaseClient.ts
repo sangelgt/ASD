@@ -8,6 +8,4 @@ if (!supabaseUrl || !supabaseAnonKey) {
   throw new Error('VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY are required but not set.')
 }
 
- jules-fix-gh-pages-deployment-885220227349153596
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
-
