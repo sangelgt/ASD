@@ -13,7 +13,7 @@ import Accesibilidad from './pages/Accesibilidad';
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/ASD/">
       <div className="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-sans transition-colors duration-300 antialiased flex flex-col min-h-screen">
         <Header />
         <Routes>
