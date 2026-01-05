@@ -1,3 +1,4 @@
+ feat-create-static-website-6544743807437363124
 // Supabase initialization
 const SUPABASE_URL = 'https://TU_PROJECT_URL.supabase.co';
 const SUPABASE_ANON_KEY = 'TU_ANON_KEY';
@@ -132,3 +133,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
