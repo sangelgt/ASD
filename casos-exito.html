@@ -54,19 +54,23 @@
 <nav class="fixed w-full z-50 bg-surface-light/95 dark:bg-surface-dark/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 transition-all duration-300" id="navbar">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-20">
-<div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.location.href='index.html'">
+ feat-create-static-website-6544743807437363124
+<a href="index.html" class="flex-shrink-0 flex items-center cursor-pointer">
+
 <div class="h-10 w-10 bg-primary rounded-lg flex items-center justify-center mr-3 shadow-lg shadow-primary/20">
 <span class="text-white font-display font-bold text-xl">AS</span>
 </div>
 <span class="font-display font-bold text-xl tracking-tight hidden sm:block text-text-light dark:text-text-dark">
                         Angel Salazar <span class="text-primary dark:text-primary-light">Digital</span>
 </span>
-</div>
+ feat-create-static-website-6544743807437363124
+</a>
 <div class="hidden md:flex space-x-8 items-center">
-<a class="text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="index.html">Inicio</a>
-<a class="text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="metodologia.html">Metodología</a>
-<a class="text-primary dark:text-primary-light font-bold border-b-2 border-primary dark:border-primary-light text-sm lg:text-base" href="casos-exito.html">Casos de Éxito</a>
-<a class="text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="recursos.html">Recursos</a>
+<a class="nav-link text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="index.html">Inicio</a>
+<a class="nav-link text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="metodologia.html">Metodología</a>
+<a class="nav-link text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="casos-exito.html">Casos de Éxito</a>
+<a class="nav-link text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="recursos.html">Recursos</a>
+
 <button aria-label="Toggle dark mode" class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-text-muted-light dark:text-text-muted-dark" id="theme-toggle">
 <span class="material-symbols-outlined text-xl">dark_mode</span>
 </button>
@@ -75,14 +79,26 @@
                     </a>
 </div>
 <div class="md:hidden flex items-center">
-<button class="p-2 rounded-md text-gray-500 hover:text-primary dark:hover:text-primary-light hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+ feat-create-static-website-6544743807437363124
+<button id="mobile-menu-button" class="p-2 rounded-md text-gray-500 hover:text-primary dark:hover:text-primary-light hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+
 <span class="material-symbols-outlined text-2xl">menu</span>
 </button>
 </div>
 </div>
 </div>
+ feat-create-static-website-6544743807437363124
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="md:hidden hidden">
+    <a href="index.html" class="block py-2 px-4 text-sm text-text-muted-light dark:text-text-muted-dark hover:bg-gray-100 dark:hover:bg-gray-700">Inicio</a>
+    <a href="metodologia.html" class="block py-2 px-4 text-sm text-text-muted-light dark:text-text-muted-dark hover:bg-gray-100 dark:hover:bg-gray-700">Metodología</a>
+    <a href="casos-exito.html" class="block py-2 px-4 text-sm text-text-muted-light dark:text-text-muted-dark hover:bg-gray-100 dark:hover:bg-gray-700">Casos de Éxito</a>
+    <a href="recursos.html" class="block py-2 px-4 text-sm text-text-muted-light dark:text-text-muted-dark hover:bg-gray-100 dark:hover:bg-gray-700">Recursos</a>
+    <a href="diagnostico.html" class="block py-2 px-4 text-sm text-white bg-primary hover:bg-primary-hover">Diagnóstico</a>
+</div>
 </nav>
-<section class="relative pt-32 pb-20 overflow-hidden">
+<section class="relative h-screen flex items-center justify-center overflow-hidden">
+
 <div class="absolute inset-0 bg-grid-pattern dark:bg-grid-pattern-dark bg-[size:40px_40px] opacity-[0.4] pointer-events-none"></div>
 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-background-light/50 to-background-light dark:via-background-dark/50 dark:to-background-dark pointer-events-none"></div>
 <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -105,6 +121,9 @@
 </div>
 </div>
 </section>
+ feat-create-static-website-6544743807437363124
+
+
 <section class="py-16 bg-surface-light dark:bg-surface-dark border-y border-gray-200 dark:border-gray-800">
 <div class="max-w-4xl mx-auto px-4 text-center">
 <div class="reveal">
@@ -124,262 +143,249 @@
 </div>
 </div>
 </section>
-<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-32 flex-grow">
-<article class="grid lg:grid-cols-12 gap-12 items-start">
-<div class="lg:col-span-5 sticky top-28">
-<div class="reveal relative rounded-2xl overflow-hidden shadow-2xl group border border-gray-200 dark:border-gray-700">
-<div class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent z-10 mix-blend-multiply opacity-80"></div>
-<img alt="Nabolic Fitness Gym Interior" class="w-full h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-700" src="assets/img/casos-2.jpg"/>
-<div class="absolute bottom-0 left-0 p-8 z-20">
-<div class="inline-block px-3 py-1 bg-white/20 backdrop-blur text-white text-xs font-bold uppercase tracking-wider rounded mb-3 border border-white/20">Retail &amp; Fitness</div>
-<h2 class="text-4xl font-display font-bold text-white mb-2">Nabolic Fitness</h2>
-<p class="text-white/90 font-light">Automatización de inventario y atención al cliente.</p>
-</div>
-</div>
-<div class="reveal delay-200 mt-6 bg-yellow-50 dark:bg-yellow-900/10 border-l-4 border-yellow-500 p-6 rounded-r-lg shadow-sm">
-<div class="flex items-start">
-<span class="material-symbols-outlined text-yellow-600 dark:text-yellow-500 mr-3 text-3xl">lightbulb</span>
-<div>
-<h4 class="font-bold text-yellow-800 dark:text-yellow-400 uppercase text-sm tracking-wider mb-1">El Factor Decisivo</h4>
-<p class="text-sm text-yellow-900/80 dark:text-yellow-100/80">
-                                La integración de IA predictiva en la cadena de suministro redujo el "stock muerto" en un 40% antes de tocar la interfaz de usuario.
-                            </p>
-</div>
-</div>
-</div>
-</div>
-<div class="lg:col-span-7 space-y-8">
-<div class="reveal delay-100">
-<h3 class="text-2xl font-bold mb-4 flex items-center text-text-light dark:text-text-dark">
-<span class="w-8 h-1.5 bg-primary dark:bg-primary-light mr-4 rounded-full"></span> Contexto
-                    </h3>
-<p class="text-text-muted-light dark:text-text-muted-dark leading-relaxed text-lg">
-                        Nabolic enfrentaba una crisis de escalabilidad. Con 12 sucursales nuevas, el sistema manual de gestión de inventario y la atención al cliente vía WhatsApp estaban colapsando. La pérdida de leads por falta de respuesta inmediata superaba el 35%.
-                    </p>
-</div>
-<div class="reveal delay-200 bg-surface-light dark:bg-surface-dark rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm">
-<div class="p-6 border-l-4 border-danger">
-<h4 class="text-lg font-bold flex items-center mb-4 text-text-light dark:text-text-dark">
-<span class="bg-danger/10 p-1.5 rounded-full mr-3 flex items-center justify-center">
-<span class="material-symbols-outlined text-danger text-sm">warning</span>
-</span>
-                            Obstáculos Superados (Critical Errors)
-                        </h4>
-<ul class="space-y-4">
-<li class="flex items-start">
-<span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
-<span class="text-text-muted-light dark:text-text-muted-dark text-sm">Resistencia del personal de ventas a adoptar el CRM automatizado.</span>
-</li>
-<li class="flex items-start">
-<span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
-<span class="text-text-muted-light dark:text-text-muted-dark text-sm">Datos históricos de inventario fragmentados en excels locales.</span>
-</li>
-<li class="flex items-start">
-<span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
-<span class="text-text-muted-light dark:text-text-muted-dark text-sm">Alucinaciones tempranas del chatbot en consultas sobre suplementos médicos.</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="reveal delay-300 bg-surface-light dark:bg-surface-dark rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden border-l-4 border-l-secondary">
-<div class="px-6 py-4 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-secondary/5">
-<h4 class="font-bold text-secondary flex items-center">
-<span class="material-symbols-outlined mr-2">verified</span> Resultados Cuantificables
-                        </h4>
-<span class="text-xs font-mono text-gray-500 dark:text-gray-400">Q3 2023 - Q1 2024</span>
-</div>
-<div class="p-0">
-<table class="w-full text-left border-collapse">
-<tbody>
-<tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
-<td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Tasa de Conversión (Leads)</td>
-<td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 2.1%</td>
-<td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 5.8%</td>
-</tr>
-<tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
-<td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Tiempo Respuesta Promedio</td>
-<td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 4.5 hrs</td>
-<td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 45 seg</td>
-</tr>
-<tr class="hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
-<td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Coste Operativo / Cliente</td>
-<td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: $12.50</td>
-<td class="p-4 text-sm font-bold text-secondary text-right">Ahora: $4.20</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</article>
-<hr class="border-gray-200 dark:border-gray-800"/>
-<article class="grid lg:grid-cols-12 gap-12 items-start">
-<div class="lg:col-span-5 sticky top-28">
-<div class="reveal relative rounded-2xl overflow-hidden shadow-2xl group border border-gray-200 dark:border-gray-700">
-<div class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent z-10 mix-blend-multiply opacity-80"></div>
-<img alt="Warehouse logistics" class="w-full h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-700" src="assets/img/casos-3.jpg"/>
-<div class="absolute bottom-0 left-0 p-8 z-20">
-<div class="inline-block px-3 py-1 bg-white/20 backdrop-blur text-white text-xs font-bold uppercase tracking-wider rounded mb-3 border border-white/20">E-Commerce &amp; Logística</div>
-<h2 class="text-4xl font-display font-bold text-white mb-2">La Explotada.ve</h2>
-<p class="text-white/90 font-light">Optimización de rutas y predicción de demanda.</p>
-</div>
-</div>
-<div class="reveal delay-200 mt-6 bg-yellow-50 dark:bg-yellow-900/10 border-l-4 border-yellow-500 p-6 rounded-r-lg shadow-sm">
-<div class="flex items-start">
-<span class="material-symbols-outlined text-yellow-600 dark:text-yellow-500 mr-3 text-3xl">lightbulb</span>
-<div>
-<h4 class="font-bold text-yellow-800 dark:text-yellow-400 uppercase text-sm tracking-wider mb-1">El Factor Decisivo</h4>
-<p class="text-sm text-yellow-900/80 dark:text-yellow-100/80">
-                                Limpiar la base de datos de direcciones "informales" permitió al algoritmo de rutas reducir el gasto de combustible en un 22% la primera semana.
-                            </p>
-</div>
-</div>
-</div>
-</div>
-<div class="lg:col-span-7 space-y-8">
-<div class="reveal delay-100">
-<h3 class="text-2xl font-bold mb-4 flex items-center text-text-light dark:text-text-dark">
-<span class="w-8 h-1.5 bg-primary dark:bg-primary-light mr-4 rounded-full"></span> Contexto
-                    </h3>
-<p class="text-text-muted-light dark:text-text-muted-dark leading-relaxed text-lg">
-                        Con el auge del delivery en Venezuela, La Explotada.ve creció exponencialmente pero caóticamente. Los costos de última milla se comían el margen de ganancia. Se implementó un modelo de IA para optimización logística dinámica.
-                    </p>
-</div>
-<div class="reveal delay-200 bg-surface-light dark:bg-surface-dark rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm">
-<div class="p-6 border-l-4 border-danger">
-<h4 class="text-lg font-bold flex items-center mb-4 text-text-light dark:text-text-dark">
-<span class="bg-danger/10 p-1.5 rounded-full mr-3 flex items-center justify-center">
-<span class="material-symbols-outlined text-danger text-sm">warning</span>
-</span>
-                            Obstáculos Superados (Critical Errors)
-                        </h4>
-<ul class="space-y-4">
-<li class="flex items-start">
-<span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
-<span class="text-text-muted-light dark:text-text-muted-dark text-sm">Geolocalización imprecisa en zonas no cartografiadas por Google Maps.</span>
-</li>
-<li class="flex items-start">
-<span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
-<span class="text-text-muted-light dark:text-text-muted-dark text-sm">Falta de conectividad estable para los choferes en ruta.</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="reveal delay-300 bg-surface-light dark:bg-surface-dark rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden border-l-4 border-l-secondary">
-<div class="px-6 py-4 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-secondary/5">
-<h4 class="font-bold text-secondary flex items-center">
-<span class="material-symbols-outlined mr-2">verified</span> Resultados Cuantificables
-                        </h4>
-<span class="text-xs font-mono text-gray-500 dark:text-gray-400">Q2 2024</span>
-</div>
-<div class="p-0">
-<table class="w-full text-left border-collapse">
-<tbody>
-<tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
-<td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Entregas a Tiempo</td>
-<td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 78%</td>
-<td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 96%</td>
-</tr>
-<tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
-<td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Gasto Combustible Mensual</td>
-<td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: $4,200</td>
-<td class="p-4 text-sm font-bold text-secondary text-right">Ahora: $3,150</td>
-</tr>
-<tr class="hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
-<td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Devoluciones por error</td>
-<td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 12%</td>
-<td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 2%</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</article>
-<hr class="border-gray-200 dark:border-gray-800"/>
-<article class="grid lg:grid-cols-12 gap-12 items-start">
-<div class="lg:col-span-5 sticky top-28">
-<div class="reveal relative rounded-2xl overflow-hidden shadow-2xl group border border-gray-200 dark:border-gray-700">
-<div class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent z-10 mix-blend-multiply opacity-80"></div>
-<img alt="Office meeting corporate" class="w-full h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-700" src="assets/img/casos-4.jpg"/>
-<div class="absolute bottom-0 left-0 p-8 z-20">
-<div class="inline-block px-3 py-1 bg-white/20 backdrop-blur text-white text-xs font-bold uppercase tracking-wider rounded mb-3 border border-white/20">B2B &amp; Consultoría</div>
-<h2 class="text-4xl font-display font-bold text-white mb-2">Medusa Group</h2>
-<p class="text-white/90 font-light">Generación de informes y analítica predictiva.</p>
-</div>
-</div>
-<div class="reveal delay-200 mt-6 bg-yellow-50 dark:bg-yellow-900/10 border-l-4 border-yellow-500 p-6 rounded-r-lg shadow-sm">
-<div class="flex items-start">
-<span class="material-symbols-outlined text-yellow-600 dark:text-yellow-500 mr-3 text-3xl">lightbulb</span>
-<div>
-<h4 class="font-bold text-yellow-800 dark:text-yellow-400 uppercase text-sm tracking-wider mb-1">El Factor Decisivo</h4>
-<p class="text-sm text-yellow-900/80 dark:text-yellow-100/80">
-                                La estructuración de datos no estructurados (emails, PDFs) permitió identificar patrones de churn (abandono) con 3 meses de antelación.
-                            </p>
-</div>
-</div>
-</div>
-</div>
-<div class="lg:col-span-7 space-y-8">
-<div class="reveal delay-100">
-<h3 class="text-2xl font-bold mb-4 flex items-center text-text-light dark:text-text-dark">
-<span class="w-8 h-1.5 bg-primary dark:bg-primary-light mr-4 rounded-full"></span> Contexto
-                    </h3>
-<p class="text-text-muted-light dark:text-text-muted-dark leading-relaxed text-lg">
-                        Medusa Group dedicaba 400 horas hombre mensuales a la generación de reportes para clientes. El error humano era frecuente y el análisis carecía de profundidad estratégica. Se implementaron agentes de IA para data mining y reporting.
-                    </p>
-</div>
-<div class="reveal delay-200 bg-surface-light dark:bg-surface-dark rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm">
-<div class="p-6 border-l-4 border-danger">
-<h4 class="text-lg font-bold flex items-center mb-4 text-text-light dark:text-text-dark">
-<span class="bg-danger/10 p-1.5 rounded-full mr-3 flex items-center justify-center">
-<span class="material-symbols-outlined text-danger text-sm">warning</span>
-</span>
-                            Obstáculos Superados (Critical Errors)
-                        </h4>
-<ul class="space-y-4">
-<li class="flex items-start">
-<span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
-<span class="text-text-muted-light dark:text-text-muted-dark text-sm">Privacidad de datos y compliance (GDPR/LOPD) al usar LLMs.</span>
-</li>
-<li class="flex items-start">
-<span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
-<span class="text-text-muted-light dark:text-text-muted-dark text-sm">Necesidad de "fine-tuning" costoso para jerga específica de la industria.</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="reveal delay-300 bg-surface-light dark:bg-surface-dark rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden border-l-4 border-l-secondary">
-<div class="px-6 py-4 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-secondary/5">
-<h4 class="font-bold text-secondary flex items-center">
-<span class="material-symbols-outlined mr-2">verified</span> Resultados Cuantificables
-                        </h4>
-<span class="text-xs font-mono text-gray-500 dark:text-gray-400">Annual 2023</span>
-</div>
-<div class="p-0">
-<table class="w-full text-left border-collapse">
-<tbody>
-<tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
-<td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Horas dedicadas a Reporting</td>
-<td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 400h/mes</td>
-<td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 25h/mes</td>
-</tr>
-<tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
-<td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Margen de Error en Datos</td>
-<td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 4.5%</td>
-<td class="p-4 text-sm font-bold text-secondary text-right">Ahora: &lt;0.1%</td>
-</tr>
-<tr class="hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
-<td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Retención de Clientes</td>
-<td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 85%</td>
-<td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 94%</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</article>
+ feat-create-static-website-6544743807437363124
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-16 flex-grow">
+    <!-- Caso de Éxito: Nabolic Fitness -->
+    <details class="group bg-surface-light dark:bg-surface-dark rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <summary class="flex items-center justify-between p-6 cursor-pointer">
+            <div class="flex items-center">
+                <div class="w-16 h-16 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                    <img src="assets/img/casos-2.jpg" alt="Nabolic Fitness Logo" class="h-10 w-10 object-contain">
+                </div>
+                <div>
+                    <h2 class="text-2xl font-display font-bold text-text-light dark:text-text-dark">Nabolic Fitness</h2>
+                    <p class="text-text-muted-light dark:text-text-muted-dark">Retail &amp; Fitness</p>
+                </div>
+            </div>
+            <span class="material-symbols-outlined transform transition-transform duration-300 group-open:rotate-180">expand_more</span>
+        </summary>
+        <div class="p-6 border-t border-gray-200 dark:border-gray-800">
+            <div class="grid lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-12 space-y-8">
+                    <div class="reveal delay-100">
+                        <h3 class="text-2xl font-bold mb-4 flex items-center text-text-light dark:text-text-dark">
+                            <span class="w-8 h-1.5 bg-primary dark:bg-primary-light mr-4 rounded-full"></span> Contexto
+                        </h3>
+                        <p class="text-text-muted-light dark:text-text-muted-dark leading-relaxed text-lg">
+                            Nabolic enfrentaba una crisis de escalabilidad. Con 12 sucursales nuevas, el sistema manual de gestión de inventario y la atención al cliente vía WhatsApp estaban colapsando. La pérdida de leads por falta de respuesta inmediata superaba el 35%.
+                        </p>
+                    </div>
+                    <div class="reveal delay-200 bg-surface-light dark:bg-surface-dark rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm">
+                        <div class="p-6 border-l-4 border-danger">
+                            <h4 class="text-lg font-bold flex items-center mb-4 text-text-light dark:text-text-dark">
+                                <span class="bg-danger/10 p-1.5 rounded-full mr-3 flex items-center justify-center">
+                                    <span class="material-symbols-outlined text-danger text-sm">warning</span>
+                                </span>
+                                Obstáculos Superados (Critical Errors)
+                            </h4>
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
+                                    <span class="text-text-muted-light dark:text-text-muted-dark text-sm">Resistencia del personal de ventas a adoptar el CRM automatizado.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
+                                    <span class="text-text-muted-light dark:text-text-muted-dark text-sm">Datos históricos de inventario fragmentados en excels locales.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
+                                    <span class="text-text-muted-light dark:text-text-muted-dark text-sm">Alucinaciones tempranas del chatbot en consultas sobre suplementos médicos.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reveal delay-300 bg-surface-light dark:bg-surface-dark rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden border-l-4 border-l-secondary">
+                        <div class="px-6 py-4 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-secondary/5">
+                            <h4 class="font-bold text-secondary flex items-center">
+                                <span class="material-symbols-outlined mr-2">verified</span> Resultados Cuantificables
+                            </h4>
+                            <span class="text-xs font-mono text-gray-500 dark:text-gray-400">Q3 2023 - Q1 2024</span>
+                        </div>
+                        <div class="p-0">
+                            <table class="w-full text-left border-collapse">
+                                <tbody>
+                                    <tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
+                                        <td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Tasa de Conversión (Leads)</td>
+                                        <td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 2.1%</td>
+                                        <td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 5.8%</td>
+                                    </tr>
+                                    <tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
+                                        <td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Tiempo Respuesta Promedio</td>
+                                        <td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 4.5 hrs</td>
+                                        <td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 45 seg</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
+                                        <td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Coste Operativo / Cliente</td>
+                                        <td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: $12.50</td>
+                                        <td class="p-4 text-sm font-bold text-secondary text-right">Ahora: $4.20</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </details>
+
+    <!-- Caso de Éxito: La Explotada.ve -->
+    <details class="group bg-surface-light dark:bg-surface-dark rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <summary class="flex items-center justify-between p-6 cursor-pointer">
+            <div class="flex items-center">
+                <div class="w-16 h-16 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                    <img src="assets/img/casos-3.jpg" alt="La Explotada.ve Logo" class="h-10 w-10 object-contain">
+                </div>
+                <div>
+                    <h2 class="text-2xl font-display font-bold text-text-light dark:text-text-dark">La Explotada.ve</h2>
+                    <p class="text-text-muted-light dark:text-text-muted-dark">E-Commerce &amp; Logística</p>
+                </div>
+            </div>
+            <span class="material-symbols-outlined transform transition-transform duration-300 group-open:rotate-180">expand_more</span>
+        </summary>
+        <div class="p-6 border-t border-gray-200 dark:border-gray-800">
+            <div class="grid lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-12 space-y-8">
+                    <div class="reveal delay-100">
+                        <h3 class="text-2xl font-bold mb-4 flex items-center text-text-light dark:text-text-dark">
+                            <span class="w-8 h-1.5 bg-primary dark:bg-primary-light mr-4 rounded-full"></span> Contexto
+                        </h3>
+                        <p class="text-text-muted-light dark:text-text-muted-dark leading-relaxed text-lg">
+                            Con el auge del delivery en Venezuela, La Explotada.ve creció exponencialmente pero caóticamente. Los costos de última milla se comían el margen de ganancia. Se implementó un modelo de IA para optimización logística dinámica.
+                        </p>
+                    </div>
+                    <div class="reveal delay-200 bg-surface-light dark:bg-surface-dark rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm">
+                        <div class="p-6 border-l-4 border-danger">
+                            <h4 class="text-lg font-bold flex items-center mb-4 text-text-light dark:text-text-dark">
+                                <span class="bg-danger/10 p-1.5 rounded-full mr-3 flex items-center justify-center">
+                                    <span class="material-symbols-outlined text-danger text-sm">warning</span>
+                                </span>
+                                Obstáculos Superados (Critical Errors)
+                            </h4>
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
+                                    <span class="text-text-muted-light dark:text-text-muted-dark text-sm">Geolocalización imprecisa en zonas no cartografiadas por Google Maps.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
+                                    <span class="text-text-muted-light dark:text-text-muted-dark text-sm">Falta de conectividad estable para los choferes en ruta.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reveal delay-300 bg-surface-light dark:bg-surface-dark rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden border-l-4 border-l-secondary">
+                        <div class="px-6 py-4 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-secondary/5">
+                            <h4 class="font-bold text-secondary flex items-center">
+                                <span class="material-symbols-outlined mr-2">verified</span> Resultados Cuantificables
+                            </h4>
+                            <span class="text-xs font-mono text-gray-500 dark:text-gray-400">Q2 2024</span>
+                        </div>
+                        <div class="p-0">
+                            <table class="w-full text-left border-collapse">
+                                <tbody>
+                                    <tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
+                                        <td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Entregas a Tiempo</td>
+                                        <td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 78%</td>
+                                        <td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 96%</td>
+                                    </tr>
+                                    <tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
+                                        <td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Gasto Combustible Mensual</td>
+                                        <td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: $4,200</td>
+                                        <td class="p-4 text-sm font-bold text-secondary text-right">Ahora: $3,150</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
+                                        <td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Devoluciones por error</td>
+                                        <td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 12%</td>
+                                        <td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 2%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </details>
+
+    <!-- Caso de Éxito: Medusa Group -->
+    <details class="group bg-surface-light dark:bg-surface-dark rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <summary class="flex items-center justify-between p-6 cursor-pointer">
+            <div class="flex items-center">
+                <div class="w-16 h-16 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                    <img src="assets/img/casos-4.jpg" alt="Medusa Group Logo" class="h-10 w-10 object-contain">
+                </div>
+                <div>
+                    <h2 class="text-2xl font-display font-bold text-text-light dark:text-text-dark">Medusa Group</h2>
+                    <p class="text-text-muted-light dark:text-text-muted-dark">B2B &amp; Consultoría</p>
+                </div>
+            </div>
+            <span class="material-symbols-outlined transform transition-transform duration-300 group-open:rotate-180">expand_more</span>
+        </summary>
+        <div class="p-6 border-t border-gray-200 dark:border-gray-800">
+            <div class="grid lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-12 space-y-8">
+                    <div class="reveal delay-100">
+                        <h3 class="text-2xl font-bold mb-4 flex items-center text-text-light dark:text-text-dark">
+                            <span class="w-8 h-1.5 bg-primary dark:bg-primary-light mr-4 rounded-full"></span> Contexto
+                        </h3>
+                        <p class="text-text-muted-light dark:text-text-muted-dark leading-relaxed text-lg">
+                            Medusa Group dedicaba 400 horas hombre mensuales a la generación de reportes para clientes. El error humano era frecuente y el análisis carecía de profundidad estratégica. Se implementaron agentes de IA para data mining y reporting.
+                        </p>
+                    </div>
+                    <div class="reveal delay-200 bg-surface-light dark:bg-surface-dark rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm">
+                        <div class="p-6 border-l-4 border-danger">
+                            <h4 class="text-lg font-bold flex items-center mb-4 text-text-light dark:text-text-dark">
+                                <span class="bg-danger/10 p-1.5 rounded-full mr-3 flex items-center justify-center">
+                                    <span class="material-symbols-outlined text-danger text-sm">warning</span>
+                                </span>
+                                Obstáculos Superados (Critical Errors)
+                            </h4>
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
+                                    <span class="text-text-muted-light dark:text-text-muted-dark text-sm">Privacidad de datos y compliance (GDPR/LOPD) al usar LLMs.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="material-symbols-outlined text-danger text-sm mt-1 mr-2">close</span>
+                                    <span class="text-text-muted-light dark:text-text-muted-dark text-sm">Necesidad de "fine-tuning" costoso para jerga específica de la industria.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reveal delay-300 bg-surface-light dark:bg-surface-dark rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden border-l-4 border-l-secondary">
+                        <div class="px-6 py-4 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-secondary/5">
+                            <h4 class="font-bold text-secondary flex items-center">
+                                <span class="material-symbols-outlined mr-2">verified</span> Resultados Cuantificables
+                            </h4>
+                            <span class="text-xs font-mono text-gray-500 dark:text-gray-400">Annual 2023</span>
+                        </div>
+                        <div class="p-0">
+                            <table class="w-full text-left border-collapse">
+                                <tbody>
+                                    <tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
+                                        <td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Horas dedicadas a Reporting</td>
+                                        <td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 400h/mes</td>
+                                        <td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 25h/mes</td>
+                                    </tr>
+                                    <tr class="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
+                                        <td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Margen de Error en Datos</td>
+                                        <td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 4.5%</td>
+                                        <td class="p-4 text-sm font-bold text-secondary text-right">Ahora: &lt;0.1%</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
+                                        <td class="p-4 text-sm font-medium text-text-light dark:text-text-dark">Retención de Clientes</td>
+                                        <td class="p-4 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">Antes: 85%</td>
+                                        <td class="p-4 text-sm font-bold text-secondary text-right">Ahora: 94%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </details>
+
 </main>
 <section class="bg-gray-900 text-white py-24 relative overflow-hidden">
 <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-primary opacity-30 blur-[120px] rounded-full translate-x-1/3 -translate-y-1/3"></div>
@@ -454,10 +460,8 @@
 <h3 class="font-bold text-text-light dark:text-text-dark mb-5 text-base uppercase tracking-wider">Contacto</h3>
 <ul class="space-y-4 text-sm text-text-muted-light dark:text-text-muted-dark">
 <li class="flex items-center group">
-<span class="material-symbols-outlined mr-3 text-primary dark:text-primary-light text-xl group-hover:text-primary-hover transition-colors">phone</span>
-<span class="group-hover:text-primary dark:group-hover:text-primary-light transition-colors">+52 55 8921 3040</span>
-</li>
-<li class="flex items-center group">
+ feat-create-static-website-6544743807437363124
+
 <span class="material-symbols-outlined mr-3 text-primary dark:text-primary-light text-xl group-hover:text-primary-hover transition-colors">email</span>
 <a class="group-hover:text-primary dark:group-hover:text-primary-light transition-colors" href="mailto:hola@angelsalazardigital.com">hola@angelsalazardigital.com</a>
 </li>
@@ -465,6 +469,12 @@
 <span class="material-symbols-outlined mr-3 text-primary dark:text-primary-light text-xl group-hover:text-primary-hover transition-colors">schedule</span>
 <span>Lun - Vie: 9:00 - 18:00</span>
 </li>
+ feat-create-static-website-6544743807437363124
+<li class="flex items-center group">
+    <span class="material-symbols-outlined mr-3 text-primary dark:text-primary-light text-xl group-hover:text-primary-hover transition-colors">location_on</span>
+    <span>Venezuela</span>
+</li>
+
 </ul>
 </div>
 <div>
@@ -478,20 +488,21 @@
 <div>
 <h3 class="font-bold text-text-light dark:text-text-dark mb-5 text-base uppercase tracking-wider">Síguenos</h3>
 <div class="flex flex-col space-y-3 text-sm text-text-muted-light dark:text-text-muted-dark">
-<a class="hover:text-primary dark:hover:text-primary-light transition-colors flex items-center group" href="https://linkedin.com">
+ feat-create-static-website-6544743807437363124
+<a class="hover:text-primary dark:hover:text-primary-light transition-colors flex items-center group" href="https://www.linkedin.com/in/angelsalazardigital/" target="_blank">
                             LinkedIn <span class="material-symbols-outlined text-sm ml-1 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-1 transition-all">north_east</span>
 </a>
-<a class="hover:text-primary dark:hover:text-primary-light transition-colors flex items-center group" href="https://twitter.com">
-                            Twitter / X <span class="material-symbols-outlined text-sm ml-1 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-1 transition-all">north_east</span>
-</a>
-<a class="hover:text-primary dark:hover:text-primary-light transition-colors flex items-center group" href="https://instagram.com">
-                            Instagram <span class="material-symbols-outlined text-sm ml-1 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-1 transition-all">north_east</span>
+<a class="hover:text-primary dark:hover:text-primary-light transition-colors flex items-center group" href="https://www.youtube.com/@angelsalazardigital" target="_blank">
+                            YouTube <span class="material-symbols-outlined text-sm ml-1 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-1 transition-all">north_east</span>
+
 </a>
 </div>
 </div>
 </div>
 <div class="border-t border-gray-200 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-<p class="text-sm text-text-muted-light dark:text-text-muted-dark text-center md:text-left">© 2024 Angel Salazar Digital. Todos los derechos reservados.</p>
+ feat-create-static-website-6544743807437363124
+<p class="text-sm text-text-muted-light dark:text-text-muted-dark text-center md:text-left">© 2026 Angel Salazar Digital. Todos los derechos reservados.</p>
+
 </div>
 </div>
 </footer>

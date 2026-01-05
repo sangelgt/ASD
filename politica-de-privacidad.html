@@ -61,12 +61,46 @@
                 </h2>
 </a>
 <div class="hidden md:flex items-center gap-8 animate-fade-in" style="animation-delay: 200ms;">
-<nav class="flex items-center gap-6">
-<a class="text-slate-700 dark:text-slate-200 text-sm font-display font-medium hover:text-primary transition-colors" href="index.html">Inicio</a>
-<a class="text-slate-700 dark:text-slate-200 text-sm font-display font-medium hover:text-primary transition-colors" href="metodologia.html">Metodología</a>
-<a class="text-slate-700 dark:text-slate-200 text-sm font-display font-medium hover:text-primary transition-colors" href="casos-exito.html">Casos de Éxito</a>
-<a class="text-slate-700 dark:text-slate-200 text-sm font-display font-medium hover:text-primary transition-colors" href="recursos.html">Recursos</a>
-<a class="text-slate-700 dark:text-slate-200 text-sm font-display font-medium hover:text-primary transition-colors" href="diagnostico.html">Diagnóstico</a>
+ feat-create-static-website-6544743807437363124
+<nav class="fixed w-full z-50 bg-surface-light/95 dark:bg-surface-dark/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 transition-all duration-300" id="navbar">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-20">
+<a href="index.html" class="flex-shrink-0 flex items-center cursor-pointer">
+<div class="h-10 w-10 bg-primary rounded-lg flex items-center justify-center mr-3 shadow-lg shadow-primary/20">
+<span class="text-white font-display font-bold text-xl">AS</span>
+</div>
+<span class="font-display font-bold text-xl tracking-tight hidden sm:block text-text-light dark:text-text-dark">
+                        Angel Salazar <span class="text-primary dark:text-primary-light">Digital</span>
+</span>
+</a>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="nav-link text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="index.html">Inicio</a>
+<a class="nav-link text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="metodologia.html">Metodología</a>
+<a class="nav-link text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="casos-exito.html">Casos de Éxito</a>
+<a class="nav-link text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary-light transition-colors font-medium text-sm lg:text-base" href="recursos.html">Recursos</a>
+<button aria-label="Toggle dark mode" class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-text-muted-light dark:text-text-muted-dark" id="theme-toggle">
+<span class="material-symbols-outlined text-xl">dark_mode</span>
+</button>
+<a class="bg-primary hover:bg-primary-hover text-white px-6 py-2.5 rounded-lg font-bold text-sm transition-all shadow-lg shadow-primary/30 transform hover:-translate-y-0.5" href="diagnostico.html">
+                        Diagnóstico
+                    </a>
+</div>
+<div class="md:hidden flex items-center">
+<button id="mobile-menu-button" class="p-2 rounded-md text-gray-500 hover:text-primary dark:hover:text-primary-light hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="md:hidden hidden">
+    <a href="index.html" class="block py-2 px-4 text-sm text-text-muted-light dark:text-text-muted-dark hover:bg-gray-100 dark:hover:bg-gray-700">Inicio</a>
+    <a href="metodologia.html" class="block py-2 px-4 text-sm text-text-muted-light dark:text-text-muted-dark hover:bg-gray-100 dark:hover:bg-gray-700">Metodología</a>
+    <a href="casos-exito.html" class="block py-2 px-4 text-sm text-text-muted-light dark:text-text-muted-dark hover:bg-gray-100 dark:hover:bg-gray-700">Casos de Éxito</a>
+    <a href="recursos.html" class="block py-2 px-4 text-sm text-text-muted-light dark:text-text-muted-dark hover:bg-gray-100 dark:hover:bg-gray-700">Recursos</a>
+    <a href="diagnostico.html" class="block py-2 px-4 text-sm text-white bg-primary hover:bg-primary-hover">Diagnóstico</a>
+</div>
+
 </nav>
 </div>
 <div class="md:hidden flex items-center">
@@ -234,43 +268,56 @@
 </div>
 </div>
 </main>
-<footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 pt-16 pb-8">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between gap-12 lg:gap-24">
-<div class="flex flex-col gap-6 max-w-sm">
-<a class="flex items-center gap-3 text-slate-900 dark:text-white" href="index.html">
-<span class="material-symbols-outlined text-3xl text-primary">data_exploration</span>
-<span class="text-lg font-display font-bold">Angel Salazar Digital</span>
+ feat-create-static-website-6544743807437363124
+<footer class="bg-surface-light dark:bg-surface-dark border-t border-gray-200 dark:border-gray-800 pt-16 pb-8">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 lg:col-span-1">
+<span class="font-display font-bold text-xl text-text-light dark:text-text-dark">Angel Salazar <span class="text-primary dark:text-primary-light">Digital</span></span>
+<p class="text-sm text-text-muted-light dark:text-text-muted-dark mt-4 leading-relaxed">
+                        Order before Tool. Transformando el caos operativo en rentabilidad medible a través de inteligencia artificial estratégica.
+                    </p>
+</div>
+<div>
+<h3 class="font-bold text-text-light dark:text-text-dark mb-5 text-base uppercase tracking-wider">Contacto</h3>
+<ul class="space-y-4 text-sm text-text-muted-light dark:text-text-muted-dark">
+<li class="flex items-center group">
+<span class="material-symbols-outlined mr-3 text-primary dark:text-primary-light text-xl group-hover:text-primary-hover transition-colors">email</span>
+<a class="group-hover:text-primary dark:group-hover:text-primary-light transition-colors" href="mailto:hola@angelsalazardigital.com">hola@angelsalazardigital.com</a>
+</li>
+<li class="flex items-center group">
+<span class="material-symbols-outlined mr-3 text-primary dark:text-primary-light text-xl group-hover:text-primary-hover transition-colors">schedule</span>
+<span>Lun - Vie: 9:00 - 18:00</span>
+</li>
+<li class="flex items-center group">
+    <span class="material-symbols-outlined mr-3 text-primary dark:text-primary-light text-xl group-hover:text-primary-hover transition-colors">location_on</span>
+    <span>Venezuela</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-text-light dark:text-text-dark mb-5 text-base uppercase tracking-wider">Legal</h3>
+<ul class="space-y-3 text-sm text-text-muted-light dark:text-text-muted-dark">
+<li><a class="hover:text-primary dark:hover:text-primary-light transition-colors" href="declaracion-de-accesibilidad.html">Declaración de Accesibilidad</a></li>
+<li><a class="hover:text-primary dark:hover:text-primary-light transition-colors" href="politica-de-privacidad.html">Política de Privacidad</a></li>
+<li><a class="hover:text-primary dark:hover:text-primary-light transition-colors" href="terminos-de-uso.html">Términos y Condiciones</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-text-light dark:text-text-dark mb-5 text-base uppercase tracking-wider">Síguenos</h3>
+<div class="flex flex-col space-y-3 text-sm text-text-muted-light dark:text-text-muted-dark">
+<a class="hover:text-primary dark:hover:text-primary-light transition-colors flex items-center group" href="https://www.linkedin.com/in/angelsalazardigital/" target="_blank">
+                            LinkedIn <span class="material-symbols-outlined text-sm ml-1 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-1 transition-all">north_east</span>
 </a>
-<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">
-                Transformando la incertidumbre de la IA en rentabilidad medible a través del orden y la estrategia. Consultoría especializada en ROI tecnológico.
-            </p>
-</div>
-<div class="flex flex-wrap gap-12 md:gap-20">
-<div class="flex flex-col gap-4">
-<h4 class="text-slate-900 dark:text-white font-display font-bold text-sm uppercase tracking-wider">Legal</h4>
-<div class="flex flex-col gap-2">
-<a class="text-primary font-medium text-sm transition-colors" href="politica-de-privacidad.html">Política de Privacidad</a>
-<a class="text-slate-500 dark:text-slate-400 hover:text-primary text-sm transition-colors" href="terminos-de-uso.html">Términos de Uso</a>
-<a class="text-slate-500 dark:text-slate-400 hover:text-primary text-sm transition-colors" href="cookies.html">Política de Cookies</a>
-</div>
-</div>
-<div class="flex flex-col gap-4">
-<h4 class="text-slate-900 dark:text-white font-display font-bold text-sm uppercase tracking-wider">Empresa</h4>
-<div class="flex flex-col gap-2">
-<a class="text-slate-500 dark:text-slate-400 hover:text-primary text-sm transition-colors" href="about.html">Sobre Nosotros</a>
-<a class="text-slate-500 dark:text-slate-400 hover:text-primary text-sm transition-colors" href="blog.html">Blog</a>
-<a class="text-slate-500 dark:text-slate-400 hover:text-primary text-sm transition-colors" href="diagnostico.html">Contacto</a>
+<a class="hover:text-primary dark:hover:text-primary-light transition-colors flex items-center group" href="https://www.youtube.com/@angelsalazardigital" target="_blank">
+                            YouTube <span class="material-symbols-outlined text-sm ml-1 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-1 transition-all">north_east</span>
+</a>
 </div>
 </div>
 </div>
-</div>
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 pt-8 border-t border-slate-100 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400 font-display">
-<p>© 2024 Angel Salazar Digital. Todos los derechos reservados.</p>
-<div class="flex items-center gap-6">
-<span class="flex items-center gap-1.5 hover:text-slate-500 transition-colors cursor-help">
-<span class="material-symbols-outlined text-base">verified_user</span> Secure SSL
-            </span>
-<span class="hover:text-slate-500 transition-colors cursor-help">WCAG 2.2 AA Compliant</span>
+<div class="border-t border-gray-200 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+<p class="text-sm text-text-muted-light dark:text-text-muted-dark text-center md:text-left">© 2026 Angel Salazar Digital. Todos los derechos reservados.</p>
+
 </div>
 </div>
 </footer>
