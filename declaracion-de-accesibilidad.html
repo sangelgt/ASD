@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Declaración de Accesibilidad - Angel Salazar Digital</title>
+<meta content="Declaración de accesibilidad de Angel Salazar Digital. Compromiso con los estándares WCAG 2.2 AA para una web inclusiva." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#3D0066", // Consistent Dark Purple Brand Color
+                        "primary-hover": "#2A0047",
+                        "secondary": "#10B981", // Semantic Green for specific success metrics
+                        "danger": "#EF4444",
+                        "warning": "#F59E0B",
+                        "background-light": "#F9FAFB",
+                        "background-dark": "#0F172A",
+                        "surface-light": "#FFFFFF",
+                        "surface-dark": "#1E293B",
+                        "text-light": "#111827",
+                        "text-dark": "#F3F4F6",
+                        "text-muted-light": "#6B7280",
+                        "text-muted-dark": "#9CA3AF",
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                        'lg': "0.5rem",
+                        'xl': "0.75rem",
+                        '2xl': "1rem",
+                        '3xl': "1.5rem",
+                    },
+                    backgroundImage: {
+                        'grid-pattern': "linear-gradient(to right, #e5e7eb 1px, transparent 1px), linear-gradient(to bottom, #e5e7eb 1px, transparent 1px)",
+                        'grid-pattern-dark': "linear-gradient(to right, #374151 1px, transparent 1px), linear-gradient(to bottom, #374151 1px, transparent 1px)",
+                    },
+                    animation: {
+                        'float-slow': 'float 6s ease-in-out infinite',
+                        'float-delayed': 'float 6s ease-in-out 3s infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'scroll': 'scroll 40s linear infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        },
+                        scroll: {
+                            '0%': { transform: 'translateX(0)' },
+                            '100%': { transform: 'translateX(-50%)' },
+                        }
+                    }
+                },
+            },
+        };
+    </script>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-sans transition-colors duration-300 antialiased selection:bg-primary selection:text-white">
+<nav aria-label="Navegación principal" class="fixed w-full z-50 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 transition-colors duration-300">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-20">
+<a aria-label="Angel Salazar Digital - Inicio" class="flex-shrink-0 flex items-center cursor-pointer group" href="index.html">
+<div class="h-10 w-10 bg-primary rounded-lg flex items-center justify-center mr-3 shadow-lg shadow-primary/20 group-hover:scale-105 transition-transform duration-200">
+<span class="text-white font-display font-bold text-xl">AS</span>
+</div>
+<span class="font-display font-bold text-xl tracking-tight hidden sm:block text-text-light dark:text-text-dark">Angel Salazar <span class="text-primary">Digital</span></span>
+</a>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary transition-colors font-medium text-sm" href="index.html">Inicio</a>
+<a class="text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary transition-colors font-medium text-sm" href="metodologia.html">Metodología</a>
+<a class="text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary transition-colors font-medium text-sm" href="casos-exito.html">Casos de Éxito</a>
+<a class="text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-primary transition-colors font-medium text-sm" href="recursos.html">Recursos</a>
+<button aria-label="Alternar modo oscuro" class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-text-muted-light dark:text-text-muted-dark hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary/50" id="theme-toggle">
+<span class="material-symbols-outlined text-xl">brightness_4</span>
+</button>
+<a class="bg-primary hover:bg-primary-hover text-white px-6 py-2.5 rounded-lg font-bold text-sm transition-all shadow-lg shadow-primary/30 hover:shadow-primary/50 transform hover:-translate-y-0.5" href="diagnostico.html">
+                    Diagnóstico
+                </a>
+</div>
+<div class="md:hidden flex items-center">
+<button aria-label="Abrir menú" class="p-2 rounded-lg text-gray-400 hover:text-primary hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/50">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<main>
+<section class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+<div class="absolute inset-0 bg-grid-pattern dark:bg-grid-pattern-dark bg-[size:40px_40px] opacity-[0.4] pointer-events-none"></div>
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-background-light/50 to-background-light dark:via-background-dark/50 dark:to-background-dark pointer-events-none"></div>
+<div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 z-10 text-center reveal-up">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6">
+<span class="material-symbols-outlined text-sm">accessibility_new</span>
+                Compromiso Social
+            </div>
+<h1 class="text-4xl md:text-6xl font-display font-bold mb-6 tracking-tight text-text-light dark:text-text-dark">
+                Declaración de <span class="text-primary">Accesibilidad</span>
+</h1>
+<p class="text-lg md:text-xl text-text-muted-light dark:text-text-muted-dark leading-relaxed max-w-2xl mx-auto">
+                En Angel Salazar Digital creemos que la tecnología debe ser universal. Nos comprometemos a garantizar que nuestro sitio web sea accesible para todas las personas, independientemente de sus capacidades o tecnología de asistencia, siguiendo los estándares WCAG 2.2 AA.
+            </p>
+</div>
+</section>
+<section class="pb-24 bg-background-light dark:bg-background-dark relative">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+<div class="reveal-up delay-100 p-8 rounded-2xl bg-surface-light dark:bg-surface-dark border border-gray-200 dark:border-gray-700 shadow-sm">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<h2 class="text-2xl font-display font-bold text-text-light dark:text-text-dark">1. Estado de Conformidad</h2>
+</div>
+<div class="prose dark:prose-invert max-w-none text-text-muted-light dark:text-text-muted-dark">
+<p class="mb-4">
+                        Estamos firmemente comprometidos con la accesibilidad digital. Actualmente, este sitio web es <strong>parcialmente conforme</strong> con las Pautas de Accesibilidad al Contenido en la Web (WCAG) 2.2 nivel AA a fecha de 24 de Mayo de 2024.
+                    </p>
+<p>
+                        La conformidad parcial significa que algunas partes del contenido no se ajustan completamente al estándar de accesibilidad debido a las excepciones que se detallan a continuación, aunque trabajamos activamente para resolverlas.
+                    </p>
+</div>
+</div>
+<div class="reveal-up delay-200 p-8 rounded-2xl bg-surface-light dark:bg-surface-dark border border-gray-200 dark:border-gray-700 shadow-sm">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">troubleshoot</span>
+</div>
+<h2 class="text-2xl font-display font-bold text-text-light dark:text-text-dark">2. Evaluación de la Accesibilidad</h2>
+</div>
+<div class="prose dark:prose-invert max-w-none text-text-muted-light dark:text-text-muted-dark">
+<p class="mb-4">
+                        La accesibilidad de este sitio web ha sido evaluada mediante una combinación de métodos automáticos y manuales para asegurar una experiencia robusta:
+                    </p>
+<ul class="list-disc pl-5 space-y-2">
+<li><strong>Autoevaluación interna:</strong> Realizada por nuestro equipo de desarrollo utilizando la metodología "Orden antes que Herramienta".</li>
+<li><strong>Herramientas de testeo:</strong> Uso de herramientas como WAVE, Google Lighthouse y validadores de contraste de color.</li>
+<li><strong>Revisión manual:</strong> Navegación por teclado y pruebas con lectores de pantalla básicos.</li>
+</ul>
+</div>
+</div>
+<div class="reveal-up delay-300 p-8 rounded-2xl bg-surface-light dark:bg-surface-dark border border-gray-200 dark:border-gray-700 shadow-sm">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-10 h-10 rounded-lg bg-warning/10 flex items-center justify-center text-warning">
+<span class="material-symbols-outlined">handshake</span>
+</div>
+<h2 class="text-2xl font-display font-bold text-text-light dark:text-text-dark">3. Medidas de Apoyo a la Accesibilidad</h2>
+</div>
+<div class="prose dark:prose-invert max-w-none text-text-muted-light dark:text-text-muted-dark">
+<p class="mb-4">
+                        Angel Salazar Digital integra la accesibilidad como parte fundamental de su estrategia digital:
+                    </p>
+<div class="grid md:grid-cols-2 gap-4 mt-6">
+<div class="bg-background-light dark:bg-background-dark p-4 rounded-lg border border-gray-100 dark:border-gray-800">
+<h3 class="font-bold text-text-light dark:text-text-dark mb-2">Diseño Inclusivo</h3>
+<p class="text-sm">Priorizamos tipografías legibles (sans-serif), contrastes de color suficientes y una estructura jerárquica clara.</p>
+</div>
+<div class="bg-background-light dark:bg-background-dark p-4 rounded-lg border border-gray-100 dark:border-gray-800">
+<h3 class="font-bold text-text-light dark:text-text-dark mb-2">Entrenamiento</h3>
+<p class="text-sm">Nuestro equipo recibe formación continua sobre buenas prácticas de accesibilidad y estándares W3C.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="reveal-up delay-[400ms] p-8 rounded-2xl bg-surface-light dark:bg-surface-dark border border-gray-200 dark:border-gray-700 shadow-sm">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-10 h-10 rounded-lg bg-danger/10 flex items-center justify-center text-danger">
+<span class="material-symbols-outlined">block</span>
+</div>
+<h2 class="text-2xl font-display font-bold text-text-light dark:text-text-dark">4. Contenido No Accesible</h2>
+</div>
+<div class="prose dark:prose-invert max-w-none text-text-muted-light dark:text-text-muted-dark">
+<p class="mb-4">
+                        A pesar de nuestros esfuerzos, es posible que algunos elementos aún no sean completamente accesibles. Actualmente hemos identificado las siguientes limitaciones:
+                    </p>
+<ul class="list-disc pl-5 space-y-2 mb-4">
+<li>Algunos documentos PDF antiguos pueden no estar etiquetados correctamente para lectores de pantalla.</li>
+<li>Ciertas infografías complejas en la sección de "Metodología" podrían requerir descripciones de texto alternativas más detalladas.</li>
+</ul>
+<p>
+                        Si necesita acceder a esta información en un formato alternativo, por favor contáctenos a través del formulario al final de esta página.
+                    </p>
+</div>
+</div>
+<div class="reveal-up delay-[500ms]">
+<h2 class="text-lg font-display font-bold text-text-light dark:text-text-dark mb-2">5. Preparación de esta Declaración de Accesibilidad</h2>
+<p class="text-sm text-text-muted-light dark:text-text-muted-dark">
+                    Esta declaración fue preparada el <strong>24 de Mayo de 2024</strong>. Fue revisada por última vez el <strong>24 de Mayo de 2024</strong>. El método utilizado para preparar la declaración fue una autoevaluación llevada a cabo por el equipo técnico de la empresa.
+                </p>
+</div>
+<div class="reveal-up delay-[600ms] pt-8 border-t border-gray-200 dark:border-gray-800" id="contacto-accesibilidad">
+<div class="grid md:grid-cols-2 gap-12 items-start">
+<div>
+<h2 class="text-3xl font-display font-bold text-text-light dark:text-text-dark mb-4">6. Datos de Contacto e Incidencias</h2>
+<p class="text-text-muted-light dark:text-text-muted-dark mb-6 leading-relaxed">
+                            Su opinión es fundamental para nosotros. Si encuentra alguna barrera de acceso que le impida utilizar nuestro sitio web, o si tiene sugerencias de mejora, por favor notifíquenos. Nos comprometemos a responder en un plazo máximo de 48 horas laborables.
+                        </p>
+<ul class="space-y-4">
+<li class="flex items-center">
+<div class="bg-primary/10 p-2 rounded-lg text-primary mr-3">
+<span class="material-symbols-outlined">email</span>
+</div>
+<span class="text-text-light dark:text-text-dark font-medium">accesibilidad@angelsalazardigital.com</span>
+</li>
+<li class="flex items-center">
+<div class="bg-primary/10 p-2 rounded-lg text-primary mr-3">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<span class="text-text-light dark:text-text-dark font-medium">Madrid, España</span>
+</li>
+</ul>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-full -mr-8 -mt-8 pointer-events-none group-hover:bg-primary/10 transition-colors"></div>
+<form class="space-y-4 relative z-10">
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark mb-1" for="name">Nombre Completo</label>
+<input class="w-full rounded-lg bg-background-light dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:border-primary focus:ring-primary dark:text-white transition-colors" id="name" placeholder="Su nombre" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark mb-1" for="email">Correo Electrónico</label>
+<input class="w-full rounded-lg bg-background-light dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:border-primary focus:ring-primary dark:text-white transition-colors" id="email" placeholder="nombre@empresa.com" type="email"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark mb-1" for="message">Descripción de la Incidencia</label>
+<textarea class="w-full rounded-lg bg-background-light dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:border-primary focus:ring-primary dark:text-white transition-colors" id="message" placeholder="Describa el problema de accesibilidad encontrado..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary hover:bg-primary-hover text-white font-bold py-3 px-6 rounded-lg shadow-lg shadow-primary/30 transform hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center" type="button">
+                                Enviar Reporte
+                                <span class="material-symbols-outlined ml-2 text-sm">send</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-surface-light dark:bg-surface-dark border-t border-gray-200 dark:border-gray-800 pt-16 pb-8">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+<div class="lg:col-span-1">
+<div class="flex items-center mb-6">
+<div class="h-8 w-8 bg-primary rounded-lg flex items-center justify-center mr-2 shadow-lg shadow-primary/20">
+<span class="text-white font-display font-bold text-sm">AS</span>
+</div>
+<span class="font-display font-bold text-xl text-text-light dark:text-text-dark tracking-tight">Angel Salazar <span class="text-primary">Digital</span></span>
+</div>
+<p class="text-sm text-text-muted-light dark:text-text-muted-dark mb-6 leading-relaxed">
+                    Transformando negocios mediante inteligencia artificial aplicada.<br/>
+<span class="font-semibold text-primary">Orden antes que Herramienta.</span>
+</p>
+<div class="flex space-x-4">
+<a aria-label="LinkedIn" class="text-text-muted-light hover:text-primary transition-colors duration-200" href="https://linkedin.com">
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</a>
+<a aria-label="Twitter" class="text-text-muted-light hover:text-primary transition-colors duration-200" href="https://twitter.com">
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h3 class="font-display font-bold text-lg mb-4 text-text-light dark:text-text-dark">Navegación</h3>
+<ul class="space-y-3 text-sm text-text-muted-light dark:text-text-muted-dark font-medium">
+<li><a class="hover:text-primary transition-colors block" href="index.html">Inicio</a></li>
+<li><a class="hover:text-primary transition-colors block" href="metodologia.html">Metodología</a></li>
+<li><a class="hover:text-primary transition-colors block" href="casos-exito.html">Casos de Éxito</a></li>
+<li><a class="hover:text-primary transition-colors block" href="recursos.html">Recursos</a></li>
+<li><a class="hover:text-primary transition-colors block" href="diagnostico.html">Diagnóstico</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-display font-bold text-lg mb-4 text-text-light dark:text-text-dark">Contacto</h3>
+<ul class="space-y-4 text-sm text-text-muted-light dark:text-text-muted-dark">
+<li class="flex items-center group cursor-pointer">
+<div class="bg-primary/10 p-2 rounded-lg text-primary mr-3 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-sm">phone</span>
+</div>
+<span class="group-hover:text-text-light dark:group-hover:text-text-dark transition-colors">+34 912 345 678</span>
+</li>
+<li class="flex items-center group cursor-pointer">
+<div class="bg-primary/10 p-2 rounded-lg text-primary mr-3 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-sm">email</span>
+</div>
+<span class="group-hover:text-text-light dark:group-hover:text-text-dark transition-colors">contacto@angelsalazardigital.com</span>
+</li>
+<li class="flex items-center group">
+<div class="bg-primary/10 p-2 rounded-lg text-primary mr-3">
+<span class="material-symbols-outlined text-sm">schedule</span>
+</div>
+<span>Lun - Vie: 9:00 - 18:00 CET</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="font-display font-bold text-lg mb-4 text-text-light dark:text-text-dark">Legal</h3>
+<ul class="space-y-3 text-sm text-text-muted-light dark:text-text-muted-dark font-medium">
+<li><a aria-current="page" class="text-primary font-bold transition-colors block" href="declaracion-de-accesibilidad.html">Declaración de Accesibilidad</a></li>
+<li><a class="hover:text-primary transition-colors block" href="politica-de-privacidad.html">Política de Privacidad</a></li>
+<li><a class="hover:text-primary transition-colors block" href="terminos-de-uso.html">Términos y Condiciones</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-200 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-text-muted-light dark:text-text-muted-dark">
+<div class="mb-4 md:mb-0">
+                © 2024 Angel Salazar Digital. Todos los derechos reservados.
+            </div>
+<div class="flex items-center space-x-4">
+<span class="flex items-center text-xs opacity-75">
+<span class="material-symbols-outlined text-sm mr-1">location_on</span>
+                     Madrid, España
+                </span>
+</div>
+</div>
+</div>
+</footer>
+<script type="module" src="assets/js/main.js"></script>
+</body></html>
